@@ -3,3 +3,18 @@ A:There's a new file called .git. Because there's no version control without ini
 
 Q:How is the staging area different from the working directory and the repository? What value do you think it offers?
 A:It's the files to be commit. It offers us an option that we could commit without necessary files or files we don't want to keep in the repository.
+
+Q:How can you use the staging area to make sure you have one commit per logical change?
+A:I can make files logically connect into the staging area and commit them each time.
+
+Q:What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A:When I want to add some new features or have a bug to fix. They would allow me to keep the work currently and start another work. And it's easy to get back to the work I did before.
+
+Q:How do the diagrams help you visualize the branch structure?
+A:It helps me to see the branch history so that I can figure out where I want to start to make a change.
+
+Q:What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A:It combines the files together and make a new commit. Because It's original from both branches.
+
+Q:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A:The pro is that you don't need to do it by yourself. But the con is when to merge can't be decided. Doing merges manually allow us to keep more branches And reduce the conflict resolving times.
